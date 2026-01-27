@@ -1,6 +1,6 @@
 # Projekti Django – Hyrje në Inxhinieri Software
 
-Ky është projekti im i realizuar në kuadër të lëndës **Hyrje në Inxhinieri Software**.  
+Ky është projekti yne i realizuar në kuadër të lëndës **Hyrje në Inxhinieri Software**.  
 Projekti është zhvilluar duke përdorur **Django** në **PyCharm**dhe ka për qëllim demonstrimin e aftësive bazë në zhvillimin e aplikacioneve web.
 
 Per te ekzekutuar projektin merret linku nga repository

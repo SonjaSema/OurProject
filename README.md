@@ -27,7 +27,7 @@ Pa bere ndryshime hapim terminalin dhe ekzekutojme komanden cd moviereviews pyth
 
 ##  Dorëzimi
 Ky repository përmban:
-- Të paktën dy commit-e (initial + update).
+- Të paktën pese commite (initial + update).
 - Dokumentimin bazë përmes këtij README.md.
 
 

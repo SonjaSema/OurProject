@@ -1,7 +1,12 @@
 # Projekti Django – Hyrje në Inxhinieri Software
 
 Ky është projekti im i realizuar në kuadër të lëndës **Hyrje në Inxhinieri Software**.  
-Projekti është zhvilluar duke përdorur **Django** në **PyCharm** dhe ka për qëllim demonstrimin e aftësive bazë në zhvillimin e aplikacioneve web.
+Projekti është zhvilluar duke përdorur **Django** në **PyCharm**dhe ka për qëllim demonstrimin e aftësive bazë në zhvillimin e aplikacioneve web.
+
+Per te ekzekutuar projektin merret linku nga repository
+Ne menu bar PyCharm zgjedhim Git e me pas komanden Clone.
+Ne url vendosim linkun tone dhe klikojme Clone.
+Pa bere ndryshime hapim terminalin dhe ekzekutojme komanden cd moviereviews python manage.py runserver dhe linku per te hapur faqen web duhet te funksionoje normalisht
 
 ## Qëllimi
 - Të praktikoj përdorimin e framework-ut Django.
@@ -24,6 +29,7 @@ Projekti është zhvilluar duke përdorur **Django** në **PyCharm** dhe ka për
 Ky repository përmban:
 - Të paktën dy commit-e (initial + update).
 - Dokumentimin bazë përmes këtij README.md.
+
 
 ---
 👩‍💻 Autor: **SonjaSema GloriaVeliu GriseldaHoxha AniledaKokla**

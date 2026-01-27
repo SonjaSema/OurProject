@@ -1,0 +1,45 @@
+{% extends 'reviews/base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{{ movie.poster.url }}" class="img-fluid rounded-start" alt="{{ movie.title }}">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title">{{ movie.title }}</h2>
+                    <p class="card-text">{{ movie.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <h4>Reviews</h4>
+        <ul class="list-group">
+            {% for review in movie.reviews.all %}
+                <li class="list-group-item">
+                    <strong>{{ review.author }}</strong>: {{ review.content }}
+                </li>
+            {% empty %}
+                <li class="list-group-item">Asnjë review ende.</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="mb-4">
+        <h5 class="mb-3">Shto Review</h5>
+        <form method="post" class="p-3 border rounded shadow-sm bg-light">
+            {% csrf_token %}
+            <div class="mb-3">
+                {{ form.as_p }}
+            </div>
+            <button class="btn btn-success" type="submit">Dërgo</button>
+        </form>
+    </div>
+
+    <a class="btn btn-secondary" href="{% url 'movie_list' %}">Kthehu</a>
+</div>
+{% endblock %}
+

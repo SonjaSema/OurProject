@@ -1,0 +1,11 @@
+{% extends 'reviews/base.html' %}
+{% block content %}
+<h2>A je i sigurt që do ta fshish filmin "{{ movie.title }}"?</h2>
+<form method="post">
+   <form method="post" onsubmit="return confirm('A je i sigurt që dëshiron të fshish këtë film?');">
+  {% csrf_token %}
+  <button type="submit" class="btn btn-danger">Fshi</button>
+       <a class="btn btn-secondary" href="{% url 'movie_list' %}">Kthehu</a>
+</form>
+    </form>
+    {% endblock %}

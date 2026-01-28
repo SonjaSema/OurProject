@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Movie
 from .forms import MovieForm, ReviewForm
-
+# Views for handling movie reviews
 def movie_list(request):
     movies = Movie.objects.all()
     return render(request, 'reviews/movie_list.html', {'movies': movies})

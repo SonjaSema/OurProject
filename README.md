@@ -1,12 +1,17 @@
 # Projekti Django – Hyrje në Inxhinieri Software
 
 Ky është projekti yne i realizuar në kuadër të lëndës **Hyrje në Inxhinieri Software**.  
-Projekti është zhvilluar duke përdorur **Django** në **PyCharm**dhe ka për qëllim demonstrimin e aftësive bazë në zhvillimin e aplikacioneve web.
+Projekti është zhvilluar duke përdorur **Django** në **PyCharm** dhe ka për qëllim demonstrimin e aftësive bazë në zhvillimin e aplikacioneve web.
 
-Per te ekzekutuar projektin merret linku nga repository
-Ne menu bar PyCharm zgjedhim Git e me pas komanden Clone.
-Ne url vendosim linkun tone dhe klikojme Clone.
-Pa bere ndryshime hapim terminalin dhe ekzekutojme komanden cd moviereviews python manage.py runserver dhe linku per te hapur faqen web duhet te funksionoje normalisht
+## Nderfaqja e krijuar eshte e hapur per keto veprime
+- Te shohesh reviews per filma te ndryshem
+- Te besh search filmin qe kerkon
+- Te shohesh detajet dhe pershkrimin e filmit
+- Shtimi i filmave qe deshirojme
+- Fshirja e filmave ekzistues
+- Editimi i permbajtes se secilit film
+- Shtimi i review te reja personale
+- Ruajtja e ndryshimeve
 
 ## Qëllimi
 - Të praktikoj përdorimin e framework-ut Django.
